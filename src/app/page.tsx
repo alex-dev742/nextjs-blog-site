@@ -1,3 +1,15 @@
-export default function Home() {
-  return <main>Home</main>;
+export default function Page() {
+  return (
+    <main className="text-center pt-32 px-5">
+      <h1 className="text-4xl mdLtext-5xl font-bold mb-5">
+        Welcome to my Blog
+      </h1>
+      <p className="max-w-[750px] mx-auto leading-8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+        accusantium, soluta perspiciatis nemo, aliquid cupiditate modi
+        voluptatum odio quidem aspernatur necessitatibus. Nostrum eum assumenda
+        nemo aspernatur a saepe, fuga vero.
+      </p>
+    </main>
+  );
 }
