@@ -1,5 +1,7 @@
 "use server";
 
 export async function createPost(formData: FormData) {
-  console.log("Creating post with data:", formData.get("title"));
+  const title = formData.get("title") as string;
+  const body = formData.get("body") as string;
+  console.log(title, body);
 }
